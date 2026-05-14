@@ -129,7 +129,7 @@ f"""
 
                     order = exchange.create_market_buy_order(
                         symbol,
-                        0.0001
+                        0.00001
                     )
 
                     print("✅ BUY ORDER EXECUTED")
@@ -178,7 +178,7 @@ f"""
 
                     order = exchange.create_market_sell_order(
                         symbol,
-                        0.0001
+                        0.00001
                     )
 
                     print("✅ SELL ORDER EXECUTED")
